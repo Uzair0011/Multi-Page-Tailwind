@@ -29,7 +29,7 @@ export default function MacPage() {
         <div className="flex flex-col sm:flex-row">
           <div className="bg-blue-900 w-[100%]   sm:w-[50%] content-center">
             <div className="w-[100%] h-auto bg-white flex content-center  ">
-              <div className="w-[50%] bg-gray-300 h-auto">
+              <div className="w-[50%]  h-auto">
                 <Image
                   src="/airpod.png"
                   alt="playstation"
@@ -46,9 +46,10 @@ export default function MacPage() {
             </div>
           </div>
           {/* 2 */}
-          <div className="  w-[100%]   sm:w-[50%] content-center">
-            <div className=" h-auto bg-white flex content-center  ">
-              <div className="w-[50%] bg-gray-300 h-auto content-center">
+          <div className="  w-[100%]  bg-black sm:w-[50%] content-center">
+            {/* second */}
+            <div className=" h-auto  flex content-center text-white ">
+              <div className="w-[50%]  h-auto content-center">
                 <Image
                   src="/vision.png"
                   alt="playstation"
