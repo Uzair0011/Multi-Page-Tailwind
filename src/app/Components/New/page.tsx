@@ -37,7 +37,7 @@ const data: Idata[] = [
     url: "m6",
   },
   {
-    title: "Galaxy Buds FE Graphite",
+    title: "Galaxy Buds FE Graphite  Silver Starlight",
     price: 99.99,
     url: "e7",
   },
