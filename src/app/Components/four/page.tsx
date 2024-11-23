@@ -49,8 +49,9 @@ export default function Four() {
   return (
     <div>
       <div className="w-[100%] h-[100%] flex justify-center flex-wrap">
-        {data.map((Idata) => (
-          <div className={`${Idata.color} w-[300px] h-[540px] mt-5`}>
+        {data.map((Idata, index) => (
+
+          <div key={index} className={`${Idata.color} w-[300px] h-[540px] mt-5`}>
             {/* Image */}
             <div className="w-[100%] h-[276px]">
               <Image

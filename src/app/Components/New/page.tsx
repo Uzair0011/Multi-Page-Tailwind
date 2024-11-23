@@ -3,13 +3,13 @@ import Image from "next/image";
 type Idata = {
   title: string;
   price: number;
-  url: any;
+  url: string;
 };
 const data: Idata[] = [
   {
     title: "Apple iPhone 14 Pro Max 128GB Deep Purple",
     price: 900,
-    url: 1,
+    url: "1",
   },
   {
     title: "Blackmagic Pocket Cinema Camera 6k",
@@ -63,8 +63,11 @@ export default function New() {
       </div>
       {/* box */}
       <div className="w-[100%] h-[100%] justify-center flex  sm:justify-between flex-wrap content-between">
-        {data.map((Idata) => (
-          <div className="w-[260px] h-[432px] bg-myColor justify-center text-center p-[24px] mb-[10px] ">
+        {data.map((Idata, index) => (
+          <div
+            key={index}
+            className="w-[260px] h-[432px] bg-myColor justify-center text-center p-[24px] mb-[10px] "
+          >
             <div className="w-[225px] h-[32px] flex justify-end">
               <Image
                 // className="imgSize1"
