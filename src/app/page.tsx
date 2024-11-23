@@ -1,23 +1,21 @@
-import About from "@/components/About";
-import Contact from "@/components/Contact";
-import Focuses from "@/components/Focuses";
-import HeroSection from "@/components/HeroSection";
-import Projects from "@/components/Projects";
-
+import Main from "./Components/Main1/main";
+import MacPage from "./Components/MacPage/page";
+import Category from "./Components/Category/page";
+import New from "./Components/New/page";
+import Four from "./Components/four/page";
+import New2 from "./Components/New2/page";
+import Sale from "./Components/Sale/page";
 
 export default function Home() {
   return (
     <div>
-      <HeroSection/>
-      <br /> <br />
-      <About/>
-      <br /> <br />
-      <Focuses/>
-      <br /> <br />
-      <Projects/>
-      <br /> <br />
-      <Contact/>
-      <br /> <br /> <br /> <br />
+      <Main />
+      <MacPage />
+      <Category />
+      <New />
+      <Four />
+      <New2 />
+      <Sale />
     </div>
   );
 }

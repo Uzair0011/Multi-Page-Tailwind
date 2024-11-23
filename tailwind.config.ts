@@ -11,10 +11,10 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        'input':'#f3f3f3',
-        'ftcolor':'#2C2C2C',
-        'ftSep':'#D8D8D8',
-        'ftText':'#C8C8C8',
+        myColor: "#f6f6f6",
+      },
+      screens: {
+        xs: "15px", // `xs` ko 475px par set kiya gaya hai.
       },
     },
   },
