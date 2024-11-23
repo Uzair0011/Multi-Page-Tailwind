@@ -28,7 +28,7 @@ export default function MacPage() {
 
         <div className="flex flex-col sm:flex-row">
           <div className="bg-blue-900 w-[100%]   sm:w-[50%] content-center">
-            <div className="w-[100%] h-auto bg-white flex content-center  ">
+            <div className="w-[100%] h-auto bg-gray-200 flex content-center  ">
               <div className="w-[50%]  h-auto">
                 <Image
                   src="/airpod.png"
