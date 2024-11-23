@@ -3,8 +3,10 @@ export default function Main() {
   return (
     <div className="overflow-hidden w-[100%] h-[100%]  bg-[#211c24] sm:flex justify-around items-center  px-11">
       <div className="text-white">
-        <p className="text-[12px] sm:text-[25px] font-bold pt-11">Pro.Beyond.</p>
-        <p className="text-[45px] sm:text-[96px] font-bold">
+        <p className="text-[12px] sm:text-[25px] font-bold pt-11">
+          Pro.Beyond.
+        </p>
+        <p className="text-[45px] sm:text-[96px] font-thin">
           IPhone 14 <span className="pro">Pro</span>
         </p>
         <p className="text-[11px] sm:text-[18px] ">
@@ -14,7 +16,7 @@ export default function Main() {
           Shop Now
         </button>
       </div>
-      <div className="" >
+      <div className="">
         <Image
           className="object-cover"
           src="/iphone.png"
