@@ -6,8 +6,8 @@ export default function Main() {
         <p className="text-[12px] sm:text-[25px] font-bold pt-11">
           Pro.Beyond.
         </p>
-        <p className="text-[45px] sm:text-[96px] font-thin">
-          IPhone 14 <span className="pro">Pro</span>
+        <p className="w-[500px] text-[45px] sm:text-[96px] font-thin">
+          IPhone 14 <span className="font-medium">Pro</span>
         </p>
         <p className="text-[11px] sm:text-[18px] ">
           Created to change everything for the better. For everyone
